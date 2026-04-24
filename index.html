@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First App</title>
+    <title>Northbridge Advisory | Strategic Consulting</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <a class="logo" href="#">My First App</a>
+        <a class="logo" href="#home">Northbridge Advisory</a>
         <nav aria-label="Primary">
           <ul class="nav-links">
             <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -21,37 +22,101 @@
     </header>
 
     <main id="home">
-      <section class="hero container">
-        <h1>Build something amazing</h1>
-        <p>
-          Welcome to your homepage. This simple layout is responsive, clean, and
-          easy to customize.
-        </p>
-        <a class="button" href="#features">Get Started</a>
+      <section class="hero">
+        <div class="container hero-content">
+          <p class="eyebrow">Trusted by growth-focused leaders</p>
+          <h1>Strategic consulting for decisive business outcomes</h1>
+          <p class="hero-text">
+            We help executive teams accelerate transformation, improve
+            performance, and build resilient operating models for long-term
+            growth.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Book a Consultation</a>
+            <a class="button button-secondary" href="#services">Explore Services</a>
+          </div>
+        </div>
       </section>
 
-      <section id="features" class="features container">
-        <h2>Features</h2>
-        <div class="feature-grid">
-          <article class="card">
-            <h3>Fast Setup</h3>
-            <p>Start quickly with a lightweight structure.</p>
-          </article>
-          <article class="card">
-            <h3>Responsive</h3>
-            <p>Looks good on desktop, tablet, and mobile.</p>
-          </article>
-          <article class="card">
-            <h3>Customizable</h3>
-            <p>Update colors, text, and sections in minutes.</p>
-          </article>
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our services</p>
+            <h2>Advisory expertise where it matters most</h2>
+          </div>
+          <div class="grid cards-3">
+            <article class="card">
+              <h3>Strategy & Transformation</h3>
+              <p>
+                Align leadership around a clear roadmap and execute enterprise
+                change with confidence.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Operational Excellence</h3>
+              <p>
+                Streamline core processes, reduce costs, and improve delivery
+                performance across teams.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Executive Advisory</h3>
+              <p>
+                Get ongoing C-level guidance on market positioning, governance,
+                and growth priorities.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Client results</p>
+            <h2>What leaders say about working with us</h2>
+          </div>
+          <div class="grid cards-2">
+            <article class="card testimonial">
+              <p>
+                "Northbridge helped us redefine our operating model in under 90
+                days. We saw measurable improvements in cross-functional
+                execution and profitability."
+              </p>
+              <p class="quote-author">Ariana Patel, COO at Meridian Group</p>
+            </article>
+            <article class="card testimonial">
+              <p>
+                "Their strategic clarity and hands-on partnership gave our
+                leadership team a blueprint to scale confidently in a volatile
+                market."
+              </p>
+              <p class="quote-author">Daniel Ross, CEO at Vantage Systems</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-panel">
+          <div>
+            <p class="eyebrow">Let's talk</p>
+            <h2>Ready to move your business forward?</h2>
+            <p class="contact-text">
+              Share your goals and we will propose a focused engagement tailored
+              to your leadership priorities.
+            </p>
+          </div>
+          <a class="button" href="mailto:hello@northbridgeadvisory.com">
+            hello@northbridgeadvisory.com
+          </a>
         </div>
       </section>
     </main>
 
-    <footer id="contact" class="site-footer">
+    <footer class="site-footer">
       <div class="container">
-        <p>&copy; 2026 My First App. All rights reserved.</p>
+        <p>&copy; 2026 Northbridge Advisory. All rights reserved.</p>
       </div>
     </footer>
   </body>
